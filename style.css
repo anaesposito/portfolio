@@ -128,3 +128,22 @@ h2 {
 .fondo {
   background-image: initial;
 }
+
+/* Aca empieza Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px 60px;
+  background-color: #ff669b;
+  color: white;
+}
+.redes {
+  color: white;
+  font-size: 45px;
+  margin: 20px;
+}
+.devicon-github-plain {
+  margin-left: 30px;
+}
