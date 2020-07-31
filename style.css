@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: montserrat;
+  font-size: 1em;
+}
+.fondo-img {
+  display: flex;
+}
+.menu-nav {
+  padding: 15px 0;
+  box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+  position: relative;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-header {
+  justify-content: flex-end;
+  line-height: 2.5;
+}
+
+li {
+  margin: 10px;
+}
+
+.contacto {
+  background-color: #ff669b;
+  border-radius: 100px;
+  color: white;
+  padding: 0 30px;
+}
+
+section {
+  display: flex;
+  padding: 110px 40px 130px;
+}
+
+.personal {
+  text-align: left;
+  align-content: center;
+}
+.presentacion {
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+h3 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.ana {
+  color: #ff669b;
+  font-weight: 900;
+  font-size: 60px;
+}
+.soy {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.hago {
+  background-color: #ff669b;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 100px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  text-decoration: none;
+}
+
+.compu {
+  padding-left: 80px;
+}
+
+/* Aca empieza Habilidades */
+.habilidades {
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+h2 {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 45px;
+}
+.hab-p {
+  font-weight: 400;
+
+  max-width: 400px;
+}
+
+.contenedor {
+  text-align: center;
+  font-weight: bold;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+}
+
+.caja {
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 5%;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+}
+
+.contenedor-img {
+  box-sizing: border-box;
+}
+
+.fondo {
+  background-image: initial;
+}
