@@ -1,8 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;800&display=swap");
 
 * {
   margin: 0;
   box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -10,9 +13,7 @@ body {
   font-family: montserrat;
   font-size: 1em;
 }
-.fondo-img {
-  display: flex;
-}
+
 .menu-nav {
   padding: 15px 0;
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
@@ -41,18 +42,20 @@ li {
 
 section {
   display: flex;
-  padding: 110px 40px 130px;
+  justify-content: center;
 }
 
 .personal {
   text-align: left;
   align-content: center;
+  padding: 110px 40px 130px;
 }
 .presentacion {
   justify-content: center;
-
   flex-wrap: wrap;
+  margin-top: 6%;
 }
+
 h3 {
   font-size: 30px;
   padding-bottom: 10px;
@@ -89,6 +92,7 @@ h3 {
   justify-content: center;
   flex-wrap: wrap;
   background-color: white;
+  padding: 110px 40px 130px;
 }
 h2 {
   font-size: 45px;
@@ -97,13 +101,16 @@ h2 {
 }
 .hab-p {
   font-weight: 400;
-
   max-width: 400px;
+  margin-bottom: 20px;
 }
 
 .contenedor {
+  display: flex;
   text-align: center;
   font-weight: bold;
+  flex-direction: column;
+  align-items: center;
 }
 
 .principal {
@@ -122,18 +129,95 @@ h2 {
 }
 
 .contenedor-img {
-  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+}
+/* Aca empieza Cita */
+
+.cita {
+  background-image: url(img/fondo.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  flex-direction: column;
+  display: flex;
+}
+.principito {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 200;
+  background-color: rgba(255, 255, 255, 0.767);
+}
+.firma {
+  font-size: 20px;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.767);
+  text-align: center;
+  padding-top: 2%;
+}
+/* Aca empieza Proyectos */
+
+.project-filters {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.selected {
+  background-color: #ff669b;
+  color: white;
+  padding: 0 30px;
+  border-radius: 100px;
 }
 
-.fondo {
-  background-image: initial;
+button {
+  border: 0;
+  background-color: transparent;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  color: #2e2e31;
+  cursor: pointer;
+}
+.proyectos {
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.contenedor-proyectos {
+  margin-top: 6%;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.principal-proyectos {
+  display: flex;
+  justify-content: center;
+}
+
+.caja-pro {
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 5%;
+
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+}
+
+.proyecto-img {
+  width: 406px;
+  height: 215px;
 }
 
 /* Aca empieza Footer */
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 80px 20px 60px;
   background-color: #ff669b;
