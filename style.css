@@ -224,13 +224,12 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px 20px 60px;
   background-color: #ff669b;
 }
 
-.foot {
-  color: white;
-  text-decoration: none;
+.solapas {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .redes {
   color: white;
@@ -239,4 +238,29 @@ footer {
 }
 .devicon-github-plain {
   margin-left: 30px;
+}
+.foot {
+  text-decoration: none;
+  color: white;
+}
+
+.dos {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(to right, white, white 50%, #ff2873 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+  padding-left: 40px;
+}
+.dos:hover {
+  background-position: 0 100%;
 }
