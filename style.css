@@ -1,9 +1,12 @@
+/*Generales*/
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;800&display=swap");
 
 * {
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -14,6 +17,7 @@ body {
   font-size: 1em;
 }
 
+/*Empieza el Menu Nav */
 .menu-nav {
   padding: 15px 0;
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
@@ -53,6 +57,7 @@ li {
   color: white;
   text-decoration: none;
 }
+/*Empieza Presentacion*/
 
 section {
   display: flex;
@@ -115,7 +120,7 @@ h3 {
 .slider {
   height: 50px;
   padding-left: 15px;
-  overflow: hidden; /* hide the text outside the slider div area */
+  overflow: hidden;
 }
 
 @keyframes slide {
