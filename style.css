@@ -68,12 +68,13 @@ section {
 .presentacion {
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 6%;
+  margin-top: 9%;
+  margin-bottom: 3%;
 }
 
 h3 {
   font-size: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 1%;
 }
 .ana {
   color: #ff669b;
@@ -144,7 +145,7 @@ h3 {
 }
 
 .contenedor-hago {
-  margin-top: 20px;
+  margin-top: 2%;
 }
 .hago {
   background-color: #ff669b;
@@ -160,16 +161,17 @@ h3 {
 }
 
 .compu {
-  padding-left: 80px;
+  padding-left: 5%;
+  padding-top: 8%;
 }
 
 /* Empieza Habilidades */
 
 .habilidades {
-  justify-content: center;
   flex-wrap: wrap;
   background-color: white;
   padding: 110px 40px 130px;
+  box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
 }
 h2 {
   font-size: 45px;
@@ -219,24 +221,13 @@ h2 {
   background-position: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.transition {
+.contenedor-cita {
   background-color: rgba(255, 255, 255, 0.767);
-  width: auto;
-  height: auto;
-  transition-property: width;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
-}
-
-.transition:hover {
-  width: 1533px;
 }
 
 .principito {
@@ -248,7 +239,6 @@ h2 {
 .firma {
   font-size: 20px;
   font-weight: 400;
-
   text-align: center;
   padding-top: 2%;
 }
