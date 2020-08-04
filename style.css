@@ -21,10 +21,6 @@ body {
 .menu-nav {
   padding: 15px 0;
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .fas {
@@ -40,7 +36,7 @@ ul {
 
 .nav-header {
   justify-content: flex-end;
-  line-height: 2.5;
+  line-height: 3.5;
 }
 .nav-up {
   text-decoration: none;
