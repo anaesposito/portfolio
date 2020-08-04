@@ -129,19 +129,19 @@ h3 {
   }
   5% {
     margin-top: -200px;
-  } /* 5% delay */
+  }
   33% {
     margin-top: -200px;
   }
   38% {
     margin-top: -100px;
-  } /* 5% delay */
+  }
   66% {
     margin-top: -100px;
   }
   71% {
     margin-top: 0px;
-  } /* 5% delay */
+  }
   100% {
     margin-top: 0px;
   }
