@@ -228,6 +228,7 @@ h2 {
 
 .contenedor-cita {
   background-color: rgba(255, 255, 255, 0.767);
+  padding: 2%;
 }
 
 .principito {
@@ -261,7 +262,7 @@ button {
   border: 0;
   background-color: transparent;
   font-size: 1.5em;
-  font-family: "Montserrat", sans-serif;
+  font-family: monteserrat;
   color: #2e2e31;
   cursor: pointer;
 }
