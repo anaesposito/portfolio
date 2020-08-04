@@ -84,7 +84,7 @@ h3 {
   font-weight: 900;
   font-size: 60px;
 }
-
+/*Efecto Slider */
 .slider-wrapper {
   font-size: 40px;
   color: #aaa;
@@ -167,7 +167,8 @@ h3 {
   padding-left: 80px;
 }
 
-/* Aca empieza Habilidades */
+/* Empieza Habilidades */
+
 .habilidades {
   justify-content: center;
   flex-wrap: wrap;
@@ -384,5 +385,13 @@ footer {
     font-size: 15px;
     width: 185px;
     vertical-align: baseline;
+  }
+
+  /*aca es todo prueba piloto*/
+
+  .personal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
