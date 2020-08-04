@@ -2,6 +2,7 @@
 <html lang="es">
   <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,9 +12,15 @@
     <header>
 
     <!-- Empiezaz Nav Superior-->
-      <div class="menu-nav">
-        <nav>
+   
+     
+    
+    <div class="menu-nav">
+      <i class="fas fa-bars"></i> 
+      <nav class="nav-escritorio">
+          
           <ul class="nav-header">
+            
             <li><a href="#hola" class="nav-up">HOLA</a></li>
             <li><a href="#conocimientos" class="nav-up">CONOCIMIENTOS</a></li>
             <li><a  href="#proyecto" class="nav-up">PROYECTOS</a></li>
@@ -25,16 +32,24 @@
     <!-- Empieza Presentacion-->
     <section class="presentacion">
      <div class="personal" id="hola">
-      <h3>¡Hola! Soy</h3>
+      <h3>¡Hola! Mi nombre es</h3>
       <h1 class="ana">Ana Esposito</h1>
-      <p class="soy">
-        Desarrolladora Web, amante del Diseño Gráfico y especialista en Social Media
-      </p>
+      <div class="slider-wrapper">
+        Soy
+        <div class="slider">
+             <div class="slider-text1"> Desarrolladora Web</div>
+             <div class="slider-text2">Amante del Diseño Gráfico</div>
+             <div class="slider-text3">Especialista en Social Media</div>
+        </div>
+   </div>
+
+      
       <a href="#proyecto" class="hago">LO QUE HAGO</a>
     </div>
      <div class="div-pc"> 
       <img class="compu" src="img/compu.png" alt="">
     </div>
+    
     </section>
   </div>
   
@@ -97,7 +112,7 @@
     
     <!-- Empieza Cita y fondo img-->
         <section class="cita">
-      
+      <div class="transition">
          <p class="principito">"He aquí mi secreto, que no puede</p>
           <p class="principito">  ser más simple: sólo con el corazón </p>
          <p class="principito"> se puede ver bien; lo esencial </p>
@@ -105,7 +120,7 @@
          <p class="principito">—Lo esencial es invisible para los ojos —repitió </p>
           <p class="principito">el principito para acordarse."</p>
         <p class="firma">Antoine de Saint-Exupery</p>
-      
+      </div>
       
     </section>
   
@@ -165,7 +180,7 @@
     <footer>
       
       <nav class="solapas">
-        <ul>
+        <ul class="ul-foot">
           <li><a href="#hola"  class="foot">HOLA</a></li>
           <li><a href="#conocimientos"  class="foot">CONOCIMIENTOS</a></li>
           <li><a href="#proyecto"  class="foot">PROYECTOS</a></li>

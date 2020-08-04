@@ -18,6 +18,15 @@ body {
   padding: 15px 0;
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
   position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fas {
+  color: #ff669b;
+  font-size: 24px;
+  display: none;
 }
 
 ul {
@@ -70,11 +79,72 @@ h3 {
   font-weight: 900;
   font-size: 60px;
 }
-.soy {
-  padding-top: 10px;
-  padding-bottom: 50px;
+
+.slider-wrapper {
+  font-size: 40px;
+  color: #aaa;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.slider {
+  height: 50px;
+  padding-left: 15px;
+}
+.slider-text1 {
+  background: #ff2873;
+  animation: slide 5s linear infinite;
+}
+.slider-text2 {
+  background: #66669b;
+}
+.slider-text3 {
+  background: #6dd8d6;
+}
+.slider div {
+  color: #fff;
+  height: 50px;
+  margin-bottom: 50px;
+  padding: 2px 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.slider {
+  height: 50px;
+  padding-left: 15px;
+  overflow: hidden; /* hide the text outside the slider div area */
 }
 
+@keyframes slide {
+  0% {
+    margin-top: -300px;
+  }
+  5% {
+    margin-top: -200px;
+  } /* 5% delay */
+  33% {
+    margin-top: -200px;
+  }
+  38% {
+    margin-top: -100px;
+  } /* 5% delay */
+  66% {
+    margin-top: -100px;
+  }
+  71% {
+    margin-top: 0px;
+  } /* 5% delay */
+  100% {
+    margin-top: 0px;
+  }
+}
+
+.contenedor-hago {
+  margin-top: 20px;
+}
 .hago {
   background-color: #ff669b;
   color: white;
@@ -117,9 +187,11 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+/*ACA CAMBIE A FLEX WRAP EN EL PRINCIPAL*/
 
 .principal {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -147,17 +219,34 @@ h2 {
   padding-bottom: 200px;
   flex-direction: column;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.transition {
+  background-color: rgba(255, 255, 255, 0.767);
+  width: auto;
+  height: auto;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+.transition:hover {
+  width: 1533px;
+}
+
 .principito {
   font-size: 25px;
   text-align: center;
   font-weight: 200;
-  background-color: rgba(255, 255, 255, 0.767);
 }
+
 .firma {
   font-size: 20px;
   font-weight: 400;
-  background-color: rgba(255, 255, 255, 0.767);
+
   text-align: center;
   padding-top: 2%;
 }
@@ -186,7 +275,6 @@ button {
 }
 .proyectos {
   justify-content: center;
-  flex-wrap: wrap;
   background-color: white;
 }
 
@@ -203,6 +291,7 @@ button {
 .principal-proyectos {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .caja-pro {
@@ -231,6 +320,10 @@ footer {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.ul-foot {
+  display: flex;
+}
+
 .redes {
   color: white;
   font-size: 45px;
@@ -263,4 +356,28 @@ footer {
 }
 .dos:hover {
   background-position: 0 100%;
+}
+
+/* probando responsive */
+
+/* el del footer re funciona ok*/
+/* el del header funciona ok faltan todavia links de nav dentro de la hamburguesa*/
+@media (max-width: 600px) {
+  .ul-foot {
+    flex-direction: column;
+    align-items: center;
+  }
+  .fas {
+    display: block;
+  }
+  .nav-header {
+    display: none;
+  }
+  .slider-text1,
+  .slider-text2,
+  .slider-text3 {
+    font-size: 15px;
+    width: 185px;
+    vertical-align: baseline;
+  }
 }
