@@ -213,6 +213,7 @@ h2 {
   width: 90px;
   height: 90px;
 }
+
 /* Aca empieza Cita */
 
 .cita {
@@ -290,15 +291,14 @@ button {
 .caja-pro {
   border: 1px solid rgb(196, 194, 194);
   border-radius: 5%;
-
+  width: 406px;
   padding: 20px;
   margin: 10px;
   background-color: white;
 }
 
 .proyecto-img {
-  width: 406px;
-  height: 215px;
+  width: 100%;
 }
 
 /* Aca empieza Footer */
@@ -362,6 +362,8 @@ footer {
   }
   .fas {
     display: block;
+    text-align: right;
+    margin-right: 2%;
   }
   .nav-header {
     display: none;
@@ -372,6 +374,10 @@ footer {
     font-size: 15px;
     width: 185px;
     vertical-align: baseline;
+  }
+
+  .compu {
+    width: 100%;
   }
 
   /*aca es todo prueba piloto*/
