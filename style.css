@@ -41,6 +41,7 @@ ul {
 .nav-up {
   text-decoration: none;
   color: black;
+  font-weight: 600;
 }
 li {
   margin: 10px;
@@ -52,6 +53,7 @@ li {
   padding: 0 30px;
   color: white;
   text-decoration: none;
+  font-weight: 600;
 }
 /*Empieza Presentacion*/
 
@@ -96,14 +98,14 @@ h3 {
   height: 50px;
   padding-left: 15px;
 }
-.slider-text1 {
+.slider1 {
   background: #ff2873;
   animation: slide 5s linear infinite;
 }
-.slider-text2 {
+.slider2 {
   background: #66669b;
 }
-.slider-text3 {
+.slider3 {
   background: #6dd8d6;
 }
 .slider div {
@@ -256,12 +258,6 @@ h2 {
 }
 /* Aca empieza Proyectos */
 
-.project-filters {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
 .selected {
   background-color: #ff669b;
   color: white;
@@ -273,22 +269,20 @@ button {
   border: 0;
   background-color: transparent;
   font-size: 1.5em;
-  font-family: monteserrat;
+  font-family: montserrat;
   color: #2e2e31;
   cursor: pointer;
+  margin: 0 20px 30px;
 }
-.proyectos {
-  justify-content: center;
+.proyectos,
+.caja-pro {
   background-color: white;
 }
 
 .contenedor-proyectos {
   margin-top: 6%;
-  display: flex;
   text-align: center;
   font-weight: bold;
-  flex-direction: column;
-  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -296,6 +290,7 @@ button {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 1300px;
 }
 
 .caja-pro {
@@ -304,7 +299,6 @@ button {
   width: 406px;
   padding: 20px;
   margin: 10px;
-  background-color: white;
 }
 
 .proyecto-img {
@@ -376,9 +370,9 @@ footer {
   .nav-header {
     display: none;
   }
-  .slider-text1,
-  .slider-text2,
-  .slider-text3 {
+  .slider1,
+  .slider2,
+  .slider3 {
     font-size: 15px;
     width: 185px;
     vertical-align: baseline;
