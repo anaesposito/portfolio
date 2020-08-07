@@ -330,7 +330,8 @@ footer {
   margin: 20px;
 }
 
-.foot {
+.foot,
+.con-amor {
   text-decoration: none;
   color: white;
 }
@@ -355,10 +356,8 @@ footer {
   background-position: 0 100%;
 }
 
-/* probando responsive */
+/* Ingreso de @media*/
 
-/* el del footer re funciona ok*/
-/* el del header funciona ok faltan todavia links de nav dentro de la hamburguesa*/
 @media (max-width: 600px) {
   .ul-foot {
     flex-direction: column;
@@ -415,9 +414,4 @@ footer {
   .project-filters {
     flex-wrap: wrap;
   }
-
-  /*Hasta aca todo joya el @*/
 }
-
-/* revisar img con buenas practicas e iconos
-redisenar los divs de habilidades y proyectos con 1 div padre y 1 abuelo*/
