@@ -227,17 +227,6 @@ h2 {
 
 /* Aca empieza Cita */
 
-.cita {
-  background-image: url(Img/fondo.png);
-  background-size: cover;
-  background-position: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
-}
 
 .contenedor-cita {
   background-color: rgba(255, 255, 255, 0.767);
