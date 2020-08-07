@@ -10,13 +10,20 @@
   <body class="body-contacto">
     <div class="main-container">
       <div class="container">
-        <div style="text-align: center;">
-          <h2>Contactame</h2>
-        </div>
+        
+          <div class="outer">
+            <div class="bg">
+              <div class="inner">
+          <h1 class="contacto-form">Contacto</h2>
+              </div>
+            </div>
+          </div>
+        
         <div class="row">
           <div class="column"></div>
           <div class="column">
-            <form action="/action_page.php">
+                         
+              <div>
               <label for="fname">Nombre</label>
               <input
                 type="text"
@@ -31,95 +38,35 @@
                 name="lastname"
                 placeholder="Tu Apellido"
               />
-              <label for="email">email</label>
+              
+              <label for="email">Email</label>
               <input
-                type="text"
+               type="email"
                 id="email"
-                name="lastname"
-                placeholder="Tu dirección de mail"
-              />
-
-              <label for="subject">Subject</label>
+                 name="email"
+                 placeholder="Tu Email aquí"
+                 />
+            </div>
+              <label for="subject">Asunto</label>
               <textarea
                 id="subject"
                 name="subject"
-                placeholder="Write something.."
+                placeholder="Escribe aquí tu mensaje"
                 style="height: 170px;"
               ></textarea>
-              <input type="submit" value="Submit" />
+              <div class="submit">
+                <input type="submit" value="Submit" />
+              </div>
             </form>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </body>
 </html>
 
 <!--/*Contacto Empieza Aca*/
 
-/* Style inputs */
-input[type="text"],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-}
 
-input[type="submit"] {
-  width: 380px;
-  height: 57px;
-  border-radius: 5px;
-  background: linear-gradient(90deg, #f073c8, #ff6a95);
-  box-shadow: 0px 10px 12px -11px #f243a9;
-}
-
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-/* Style the container/contact section */
-
-.main-container {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 600px;
-  margin: 120px;
-}
-.container {
-  border-radius: 5px;
-  background-color: #ffffff;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column,
-  input[type="submit"] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-.body-contacto {
-  background: linear-gradient(90deg, #f073c8, #ff6a95);
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-}
 -->

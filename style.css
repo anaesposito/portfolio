@@ -415,3 +415,117 @@ footer {
     flex-wrap: wrap;
   }
 }
+
+/* Aca empieza Contacto */
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 31px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+/*H1 CON EFECTO GRADIENT HOVER EMPIEZA ACA */
+.outer {
+  margin: auto;
+  display: block;
+  background-color: black;
+  
+}
+
+.bg {
+  text-align: center;
+  width: 0%;
+  transition: all 0.6s ease-out;
+  background: #3ebac6 background: -moz-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #3ebac6), color-stop(50%, #8b539e), color-stop(100%, #e53782));
+  background: -webkit-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+  background: -o-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+  background: -ms-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+  background: linear-gradient(to right, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3ebac6', endColorstr='#e53782', GradientType=1);
+}
+
+.inner {
+  display: inline-block;
+  background-color: white;
+  mix-blend-mode: screen;
+  padding: 5px;
+ 
+}
+
+.contacto-form{
+  color: black;
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.outer:hover .bg {
+  width: 100%;
+}
+/*Termina H1 HOVER y sigue Form*/
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus,
+input[type="submit"]:focus {
+  outline:none;
+ background-color: #ff669c8c;
+ border: 0px;
+}
+
+input[type="submit"] {
+  width: 380px;
+  height: 57px;
+  border-radius: 5px;
+  border: 0px;
+  background: linear-gradient(90deg, #f073c8, #ff6a95);
+  box-shadow: 0px 10px 12px -11px #f243a9;
+}
+input[type="submit"] {
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: 120px;
+}
+.container {
+  border-radius: 31px;
+  background-color: #ffffff;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  font-weight: bold;
+}
+.body-contacto {
+  background: linear-gradient(90deg, #f073c8, #ff6a95);
+  display: flex;
+  justify-content: center;
+   flex-wrap: wrap;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
