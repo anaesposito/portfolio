@@ -163,20 +163,21 @@ h3 {
 .compu {
   padding-left: 5%;
   padding-top: 8%;
+  width: 100%;
 }
 
 /* Empieza Habilidades */
 
 .habilidades {
   flex-wrap: wrap;
-  background-color: white;
+  background-color: #fffefe;
   padding: 110px 40px 130px;
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
 }
 h2 {
   font-size: 45px;
   font-weight: 900;
-  margin-bottom: 45px;
+  margin: 25px 0 55px;
 }
 .hab-p {
   font-weight: 400;
@@ -188,34 +189,42 @@ h2 {
   display: flex;
   text-align: center;
   font-weight: bold;
+  font-size: 20px;
   flex-direction: column;
   align-items: center;
+  margin: 40px 0 80px;
 }
-/*ACA CAMBIE A FLEX WRAP EN EL PRINCIPAL*/
 
 .principal {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  max-width: 700px;
 }
 
 .caja {
+  background-color: white;
   border: 1px solid rgb(196, 194, 194);
+  display: flex;
+  flex-direction: column;
   border-radius: 5%;
   width: 200px;
   height: 200px;
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
-  background-color: white;
 }
 
-.contenedor-img {
-  width: 90px;
-  height: 90px;
+#icono {
+  font-size: 90px;
+  margin: 25px 0px 25px;
+  color: #ff2873;
 }
 
 /* Aca empieza Cita */
 
+.main-cita {
+}
 .cita {
   background-image: url(img/fondo.png);
   background-size: cover;
@@ -225,6 +234,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
 }
 
 .contenedor-cita {
@@ -384,16 +394,34 @@ footer {
     justify-content: center;
     padding: 10px 40px 30px;
   }
+  .principal {
+    max-width: 500px;
+  }
+  .habilidades {
+    padding: 20px 20px 20px;
+  }
+
+  .cita {
+    padding: 0%;
+  }
+  .contenedor-cita {
+    background-color: rgba(255, 255, 255, 0.24);
+  }
+  .principito {
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .firma {
+    font-weight: 600;
+  }
 
   .project-filters {
     flex-wrap: wrap;
-  }
-  .proyecto-img,
-  .caja-pro {
-    width: 80%;
   }
 
   /*Hasta aca todo joya el @*/
 }
 
-/* */
+/* revisar img con buenas practicas e iconos
+redisenar los divs de habilidades y proyectos con 1 div padre y 1 abuelo*/
