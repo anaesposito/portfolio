@@ -369,6 +369,7 @@ footer {
   background-position: 0 100%;
 }
 
+
 /* Ingreso de @media*/
 
 @media (max-width: 600px) {
@@ -431,9 +432,9 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-
+  
   .dos{
-    font-size: 80px;
+    font-size: 40px;
   }
 }
 
@@ -455,7 +456,7 @@ textarea {
   margin: auto;
   display: block;
   background-color: black;
-  
+ 
 }
 
 .bg {
