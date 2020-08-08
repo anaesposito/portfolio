@@ -47,16 +47,28 @@ ul {
 }
 li {
   margin: 10px;
-}
+  }
 
 .contacto {
   background-color: #ff669b;
   border-radius: 100px;
-  padding: 0 30px;
-  color: white;
+  font-weight: 900;
+  background: linear-gradient(to right, #ff2873, #66669b 50%, #6dd8d6 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
   text-decoration: none;
-  font-weight: 600;
+ 
+
 }
+.contacto:hover {
+background-position: 0 100%;
+}
+
+
 /*Empieza Presentacion*/
 
 section {
@@ -274,6 +286,9 @@ button {
   cursor: pointer;
   margin: 0 20px 30px;
 }
+.project-filters{
+  flex-wrap: wrap;
+}
 .proyectos,
 .caja-pro {
   background-color: white;
@@ -357,10 +372,7 @@ footer {
 /* Ingreso de @media*/
 
 @media (max-width: 600px) {
-  .ul-foot {
-    flex-direction: column;
-    align-items: center;
-  }
+
   .fas {
     display: block;
     text-align: right;
@@ -409,8 +421,17 @@ footer {
     font-weight: 600;
   }
 
-  .project-filters {
-    flex-wrap: wrap;
+  .caja-pro {
+    max-width: 300px;
+  }
+  
+  .ul-foot {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dos{
+    font-size: 14px;
   }
 }
 
