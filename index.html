@@ -13,7 +13,10 @@
     <header>
 
     <!-- Empieza Nav Superior-->
+
+    <!-- atencion al tabulado aca, que esta muy desprolijo -->
         
+    <!-- no veo la necesidad de agregar este div aca. por que no darle esta clase a header? -->
         <div class="menu-nav">
       <i class="fas fa-bars"></i> 
       <nav class="nav-escritorio">
@@ -23,7 +26,9 @@
             <li><a href="#hola" class="nav-up">HOLA</a></li>
             <li><a href="#conocimientos" class="nav-up">CONOCIMIENTOS</a></li>
             <li><a  href="#proyecto" class="nav-up">PROYECTOS</a></li>
+            <!-- aqui pones la clase contacto contacto dos veces -->
             <li class="contacto" ><a href="contacto.html" class="contacto">CONTACTO</a>
+              <!-- no entiendo que son todos estos span -->
             <span></span><span></span><span></span><span></span></li>
           </ul>
         </nav>
@@ -40,6 +45,7 @@
       <div class="slider-wrapper">
         Soy
         <div class="slider">
+          <!-- ojo con el tabulado aca -->
              <div class="slider1"> Desarrolladora Web</div>
              <div class="slider2">Amante del Diseño Gráfico</div>
              <div class="slider3">Especialista en Social Media</div>
@@ -58,6 +64,8 @@
   
   <!-- Empiezan Habilidades-->
     <section class="habilidades" id="conocimientos">
+
+      <!-- este div contenedor se abre, pero nunca se cierra -->
       <div class="contenedor">
         <h2>Mis conocimientos</h2>
         <p class="hab-p">Todo lo que espero aprender en un total de 9 
@@ -65,6 +73,8 @@
          
           <div class="principal">
           <div class="caja">
+            <!-- nunca deberiamos repetir un id en nuestro codigo: si lo usamos es porque cada elemento
+            tiene uno propio -->
             <i class="devicon-html5-plain" id="icono"></i>
             <p>HTML5</p>
           </div>
@@ -93,9 +103,13 @@
     </section>
     
     <!-- Empieza Cita y fondo img-->
+
+    <!-- no es necesario este div aqui - no lo usas en css y ya section es elemento en bloque -->
     <div class="main-cita">    
     <section class="cita">
       <div class="contenedor-cita">
+        <!-- hubiera sido preferible que aqui resuelvas esta estructura dandole un width a contenedor-cita, 
+        en lugar de darle un p a cada frase.  -->
          <p class="principito">"He aquí mi secreto, que no puede</p>
           <p class="principito">  ser más simple: sólo con el corazón </p>
          <p class="principito"> se puede ver bien; lo esencial </p>
