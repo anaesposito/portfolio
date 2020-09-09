@@ -217,6 +217,7 @@ h2 {
 }
 
 .caja {
+  /* no es necesario este background color ya que este color es el que tiene la seccion */
   background-color: white;
   border: 1px solid rgb(196, 194, 194);
   display: flex;
@@ -254,6 +255,8 @@ h2 {
   padding: 2%;
 }
 
+/* todas estas ordenes son heredables, asi que se las podrias haber dado a .contenedor-cita
+para que no se repitan en cada parrafo */
 .principito {
   font-size: 25px;
   text-align: center;
@@ -460,6 +463,8 @@ textarea {
   display: block;
   background-color: black;
 }
+
+/* aca tenes un error (te olvidas del punto y coma de cierre en background: #3ebac6 lo que afecta al resto de tus estilos) */
 
 .bg {
   text-align: center;

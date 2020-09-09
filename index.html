@@ -1,5 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+
+    <!-- Empieza Nav Superior-->
+
+    <!-- atencion al tabulado aca, que esta muy desprolijo -->
+        
+    <!-- no veo la necesidad de agregar este div aca. por que no darle esta clase a header? -->
+        <div class="menu-nav">
+      <i class="fas fa-bars"></i> 
+      <nav class="nav-escritorio">
+          
+          <ul class="nav-header">
+            
+            <li><a href="#hola" class="nav-up">HOLA</a></li>
+            <li><a href="#conocimientos" class="nav-up">CONOCIMIENTOS</a></li>
+            <li><a  href="#proyecto" class="nav-up">PROYECTOS</a></li>
+            <!-- aqui pones la clase contacto contacto dos veces -->
+            <li class="contacto" ><a href="contacto.html" class="contacto">CONTACTO</a>
+              <!-- no entiendo que son todos estos span -->
+            <span></span><span></span><span></span><span></span></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
 <head>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
@@ -38,9 +72,10 @@
       <div class="slider-wrapper">
         <p> Soy</p>
         <div class="slider">
-          <div class="slider1">Desarrolladora Web</div>
-          <div class="slider2">Amante del Diseño Gráfico</div>
-          <div class="slider3">Especialista en Social Media</div>
+          <!-- ojo con el tabulado aca -->
+             <div class="slider1"> Desarrolladora Web</div>
+             <div class="slider2">Amante del Diseño Gráfico</div>
+             <div class="slider3">Especialista en Social Media</div>
         </div>
       </div>
       <a href="#proyecto" class="hago link">LO QUE HAGO</a>
@@ -54,37 +89,60 @@
 
 
   <!-- Empiezan Habilidades-->
-  <section class="habilidades" id="conocimientos">
-    <div class="contenedor">
-      <h2>Mis conocimientos</h2>
-      <p class="descripcion-habilidades">Todo lo que espero aprender en un total de 9
-        meses. Comienza la cuenta regresiva</p>
+    <section class="habilidades" id="conocimientos">
 
-      <div class="principal">
-        <div class="caja">
-          <i class="icono devicon-html5-plain"></i>
-          <p>HTML5</p>
+      <!-- este div contenedor se abre, pero nunca se cierra -->
+      <div class="contenedor">
+        <h2>Mis conocimientos</h2>
+        <p class="hab-p">Todo lo que espero aprender en un total de 9 
+          meses. Comienza la cuenta regresiva</p>
+         
+          <div class="principal">
+          <div class="caja">
+            <!-- nunca deberiamos repetir un id en nuestro codigo: si lo usamos es porque cada elemento
+            tiene uno propio -->
+            <i class="devicon-html5-plain" id="icono"></i>
+            <p>HTML5</p>
+          </div>
+          <div class="caja">
+            <i class="devicon-git-plain" id="icono"></i>
+            <p>GIT</p>
+          </div>
+          <div class="caja">
+            <i class="devicon-react-original" id="icono"></i>
+            <p>REACT</p>
+          </div>           
+          <div class="caja">
+            <i class="devicon-javascript-plain" id="icono"></i>
+            <p>Javascript</p>
+          </div>
+          <div class="caja">
+            <i class="devicon-sass-original" id="icono"></i>
+            <p>Sass</p>
+          </div>
+          <div class="caja">
+            <i class="devicon-css3-plain" id="icono"></i>
+            <p>CSS3</p>
+          </div>
+        
         </div>
-        <div class="caja">
-          <i class="icono devicon-git-plain"></i>
-          <p>GIT</p>
-        </div>
-        <div class="caja">
-          <i class="icono devicon-react-original"></i>
-          <p>REACT</p>
-        </div>
-        <div class="caja">
-          <i class="icono devicon-javascript-plain"></i>
-          <p>Javascript</p>
-        </div>
-        <div class="caja">
-          <i class="icono devicon-sass-original"></i>
-          <p>Sass</p>
-        </div>
-        <div class="caja">
-          <i class="icono devicon-css3-plain"></i>
-          <p>CSS3</p>
-        </div>
+    </section>
+    
+    <!-- Empieza Cita y fondo img-->
+
+    <!-- no es necesario este div aqui - no lo usas en css y ya section es elemento en bloque -->
+    <div class="main-cita">    
+    <section class="cita">
+      <div class="contenedor-cita">
+        <!-- hubiera sido preferible que aqui resuelvas esta estructura dandole un width a contenedor-cita, 
+        en lugar de darle un p a cada frase.  -->
+         <p class="principito">"He aquí mi secreto, que no puede</p>
+          <p class="principito">  ser más simple: sólo con el corazón </p>
+         <p class="principito"> se puede ver bien; lo esencial </p>
+         <p class="principito"> es invisible para los ojos.</p>    
+         <p class="principito">—Lo esencial es invisible para los ojos —repitió </p>
+          <p class="principito">el principito para acordarse."</p>
+        <p class="firma">Antoine de Saint-Exupery</p>
       </div>
     </div>
   </section>
