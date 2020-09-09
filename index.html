@@ -1,187 +1,185 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <header>
 
-    <!-- Empieza Nav Superior-->
-        
-        <div class="menu-nav">
-      <i class="fas fa-bars"></i> 
-      <nav class="nav-escritorio">
-          
-          <ul class="nav-header">
-            
-            <li><a href="#hola" class="nav-up">HOLA</a></li>
-            <li><a href="#conocimientos" class="nav-up">CONOCIMIENTOS</a></li>
-            <li><a  href="#proyecto" class="nav-up">PROYECTOS</a></li>
-            <li class="contacto" ><a href="contacto.html" class="contacto">CONTACTO</a>
-            <span></span><span></span><span></span><span></span></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio de Ana Esposito</title>
+</head>
 
+<body>
 
-    <!-- Empieza Presentacion-->
+  <!-- Empieza Nav Superior-->
+  <header class="menu-nav">
+    <i class="fas fa-bars"></i>
+    <nav class="nav-escritorio">
 
-    <section class="presentacion">
-     <div class="personal" id="hola">
+      <ul class="nav-header">
+        <li><a href="#div-introduccion" class="nav-up">HOLA</a></li>
+        <li><a href="#conocimientos" class="nav-up">CONOCIMIENTOS</a></li>
+        <li><a href="#proyecto" class="nav-up">PROYECTOS</a></li>
+        <li class="contacto"><a href="contacto.html">CONTACTO</a>
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <!-- Empieza Presentacion-->
+
+  <section class="presentacion">
+    <div class="introduccion" id="div-introduccion">
       <h3>¡Hola! Mi nombre es</h3>
-      <h1 class="ana">Ana Esposito</h1>
+      <h1 class="titulo-nombre">Ana Esposito</h1>
       <div class="slider-wrapper">
-        Soy
+        <p> Soy</p>
         <div class="slider">
-             <div class="slider1"> Desarrolladora Web</div>
-             <div class="slider2">Amante del Diseño Gráfico</div>
-             <div class="slider3">Especialista en Social Media</div>
+          <div class="slider1">Desarrolladora Web</div>
+          <div class="slider2">Amante del Diseño Gráfico</div>
+          <div class="slider3">Especialista en Social Media</div>
         </div>
-   </div>
+      </div>
+      <a href="#proyecto" class="hago link">LO QUE HAGO</a>
+    </div>
 
-      
-      <a href="#proyecto" class="hago">LO QUE HAGO</a>
+    <div>
+      <img class="img-introduccion" src="Img/compu.png" alt="Escritorio Colorido">
     </div>
-     <div class="div-pc"> 
-      <img class="compu" src="Img/compu.png" alt="">
-    </div>
-    
-    </section>
-  </div>
-  
+
+  </section>
+
+
   <!-- Empiezan Habilidades-->
-    <section class="habilidades" id="conocimientos">
-      <div class="contenedor">
-        <h2>Mis conocimientos</h2>
-        <p class="hab-p">Todo lo que espero aprender en un total de 9 
-          meses. Comienza la cuenta regresiva</p>
-         
-          <div class="principal">
-          <div class="caja">
-            <i class="devicon-html5-plain" id="icono"></i>
-            <p>HTML5</p>
-          </div>
-          <div class="caja">
-            <i class="devicon-git-plain" id="icono"></i>
-            <p>GIT</p>
-          </div>
-          <div class="caja">
-            <i class="devicon-react-original" id="icono"></i>
-            <p>REACT</p>
-          </div>           
-          <div class="caja">
-            <i class="devicon-javascript-plain" id="icono"></i>
-            <p>Javascript</p>
-          </div>
-          <div class="caja">
-            <i class="devicon-sass-original" id="icono"></i>
-            <p>Sass</p>
-          </div>
-          <div class="caja">
-            <i class="devicon-css3-plain" id="icono"></i>
-            <p>CSS3</p>
-          </div>
-        
+  <section class="habilidades" id="conocimientos">
+    <div class="contenedor">
+      <h2>Mis conocimientos</h2>
+      <p class="descripcion-habilidades">Todo lo que espero aprender en un total de 9
+        meses. Comienza la cuenta regresiva</p>
+
+      <div class="principal">
+        <div class="caja">
+          <i class="icono devicon-html5-plain"></i>
+          <p>HTML5</p>
         </div>
-    </section>
-    
-    <!-- Empieza Cita y fondo img-->
-    <div class="main-cita">    
-    <section class="cita">
-      <div class="contenedor-cita">
-         <p class="principito">"He aquí mi secreto, que no puede</p>
-          <p class="principito">  ser más simple: sólo con el corazón </p>
-         <p class="principito"> se puede ver bien; lo esencial </p>
-         <p class="principito"> es invisible para los ojos.</p>    
-         <p class="principito">—Lo esencial es invisible para los ojos —repitió </p>
-          <p class="principito">el principito para acordarse."</p>
-        <p class="firma">Antoine de Saint-Exupery</p>
+        <div class="caja">
+          <i class="icono devicon-git-plain"></i>
+          <p>GIT</p>
+        </div>
+        <div class="caja">
+          <i class="icono devicon-react-original"></i>
+          <p>REACT</p>
+        </div>
+        <div class="caja">
+          <i class="icono devicon-javascript-plain"></i>
+          <p>Javascript</p>
+        </div>
+        <div class="caja">
+          <i class="icono devicon-sass-original"></i>
+          <p>Sass</p>
+        </div>
+        <div class="caja">
+          <i class="icono devicon-css3-plain"></i>
+          <p>CSS3</p>
+        </div>
       </div>
     </div>
-      
-    </section>
-  
-  <!-- Empiezan Proyectos--> 
-    <section class="proyectos" id="proyecto">
-      <div class="contenedor-proyectos">
-        <h2>Mis Proyectos</h2>
-        <div class="project-filters">
-          <button type="button" class="project-filter selected">Todos</button>
-          <button type="button" class="project-filter">HTML/CSS</button>
-          <button type="button" class="project-filter">JavaScript</button>
-          <button type="button" class="project-filter">React</button>
+  </section>
+
+  <!-- Empieza Cita y fondo img-->
+
+  <section class="cita">
+    <div class="contenedor-cita">
+      <p class="principito">"He aquí mi secreto,
+        que no puede ser más simple:
+        sólo con el corazón se puede ver bien; lo esencial
+        es invisible para los ojos.
+        —Lo esencial es invisible para los ojos —repitió
+        el principito para acordarse."</p>
+      <p class="firma">Antoine de Saint-Exupery</p>
+    </div>
+
+
+  </section>
+
+  <!-- Empiezan Proyectos-->
+  <section class="proyectos">
+    <div class="contenedor-proyectos">
+      <h2 id="proyecto">Mis Proyectos</h2>
+      <div class="project-filters">
+        <button type="button" class="project-filter selected">Todos</button>
+        <button type="button" class="project-filter">HTML/CSS</button>
+        <button type="button" class="project-filter">JavaScript</button>
+        <button type="button" class="project-filter">React</button>
+      </div>
+
+      <div class="principal-proyectos">
+        <div class="caja-pro">
+          <img class="proyecto-img" src="Img/Porfolio.png" alt="">
+          <p>Portfolio</p>
         </div>
-         
-        <div class="principal-proyectos">
-          <div class="caja-pro">
-            <img class="proyecto-img" src="Img/Porfolio.png" alt="">
-            <p>Portfolio</p>
-          </div>
 
-          <div class="caja-pro">
-            <img class="proyecto-img" src="Img/Shop.png" alt="">
-            <p>Tienda</p>
-          </div>
+        <div class="caja-pro">
+          <img class="proyecto-img" src="Img/Shop.png" alt="">
+          <p>Tienda</p>
+        </div>
 
-          <div class="caja-pro">
-            <img class="proyecto-img" src="Img/Game.png" alt="">
-            <p>Juego de la Memoria</p>
-          </div>      
+        <div class="caja-pro">
+          <img class="proyecto-img" src="Img/Game.png" alt="">
+          <p>Juego de la Memoria</p>
+        </div>
 
-          <div class="caja-pro">
-            <img class="proyecto-img" src="Img/Money.png" alt="">
-            <p>Controlador de Gastos</p>
-          </div>
+        <div class="caja-pro">
+          <img class="proyecto-img" src="Img/Money.png" alt="">
+          <p>Controlador de Gastos</p>
+        </div>
 
-          <div class="caja-pro">
-            <img class="proyecto-img" src="Img/Agenda.png" alt="">
-            <p>Administrador de Reuniones</p>
-          </div>
-          <div class="caja-pro">
-            <img class="proyecto-img" src="Img/todo.png" alt="">
-            <p>Todo App</p>
-         </div>
-                 
-          <div class="caja-pro">
-            <img class="proyecto-img" src="Img/movie.png" alt="">
-           <p>Buscador de Películas</p>
-          </div>       
+        <div class="caja-pro">
+          <img class="proyecto-img" src="Img/Agenda.png" alt="">
+          <p>Administrador de Reuniones</p>
+        </div>
+        <div class="caja-pro">
+          <img class="proyecto-img" src="Img/todo.png" alt="">
+          <p>Todo App</p>
+        </div>
+
+        <div class="caja-pro">
+          <img class="proyecto-img" src="Img/movie.png" alt="">
+          <p>Buscador de Películas</p>
+        </div>
       </div>
 
 
 
-    </section>
-    
-    <!-- Final con Footer-->
-    <footer>
-      
-      <nav class="solapas">
-        <ul class="ul-foot">
-          <li><a href="#hola"  class="foot">HOLA</a></li>
-          <li><a href="#conocimientos"  class="foot">CONOCIMIENTOS</a></li>
-          <li><a href="#proyecto"  class="foot">PROYECTOS</a></li>
-          <li><a href="contacto.html"  class="foot">CONTACTO</a></li>
-        </ul>
-      </nav>
-     <div class="redes">
-      <a href="https://www.linkedin.com/in/ana-esposito-5a875184/" class="foot dos"><i class="devicon-linkedin-plain"></i></a>
-      <a href="https://wa.link/m7p5ed" class="foot dos"><i class="fab fa-whatsapp"></i></a>
-      <a href="https://github.com/anaesposito" class="foot dos"><i class="devicon-github-plain"></i></a>
-      
-     </div>
-     <div class="con-amor">
-       <p>Hecho con 🌈 por Ana Esposito</p>
-     </div>
-        
-        </ul>
-      </nav>
-    </footer>
-  </body>
+  </section>
+
+  <!-- Final con Footer-->
+  <footer>
+
+    <nav class="solapas">
+      <ul class="ul-foot">
+        <li><a href="#div-introduccion" class="link-footer">HOLA</a></li>
+        <li><a href="#conocimientos" class="link-footer">CONOCIMIENTOS</a></li>
+        <li><a href="#proyecto" class="link-footer">PROYECTOS</a></li>
+        <li><a href="contacto.html" class="link-footer">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <div class="redes">
+      <a href="https://www.linkedin.com/in/ana-esposito-5a875184/" class="link-footer dos"> <i
+          class="fab devicon-linkedin-plain"></i></a>
+      <a href="https://wa.link/m7p5ed" class="link-footer dos"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://github.com/anaesposito" class="link-footer dos"><i class="fab devicon-github-plain"></i></a>
+    </div>
+    <div class="con-amor">
+      <p>Hecho con 🌈 por Ana Esposito</p>
+    </div>
+
+    </ul>
+    </nav>
+  </footer>
+</body>
+
 </html>

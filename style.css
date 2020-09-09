@@ -20,7 +20,7 @@ body {
 /*Empieza el Menu Nav */
 
 .menu-nav {
-  padding: 15px 0;
+  padding: 2% 0 1%;
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
 }
 
@@ -47,7 +47,7 @@ ul {
 }
 li {
   margin: 10px;
-  }
+}
 
 .contacto {
   background-color: #ff669b;
@@ -61,13 +61,10 @@ li {
   background-position: 100%;
   transition: background-position 275ms ease;
   text-decoration: none;
- 
-
 }
 .contacto:hover {
-background-position: 0 100%;
+  background-position: 0 100%;
 }
-
 
 /*Empieza Presentacion*/
 
@@ -84,7 +81,7 @@ section {
 .presentacion {
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 9%;
+  margin-top: 5%;
   margin-bottom: 3%;
 }
 
@@ -92,7 +89,7 @@ h3 {
   font-size: 30px;
   padding-bottom: 1%;
 }
-.ana {
+.titulo-nombre {
   color: #ff669b;
   font-weight: 900;
   font-size: 60px;
@@ -176,7 +173,7 @@ h3 {
   text-decoration: none;
 }
 
-.compu {
+.img-introduccion {
   padding-left: 5%;
   padding-top: 8%;
   width: 100%;
@@ -195,7 +192,7 @@ h2 {
   font-weight: 900;
   margin: 25px 0 55px;
 }
-.hab-p {
+.descripcion-habilidades {
   font-weight: 400;
   max-width: 400px;
   margin-bottom: 20px;
@@ -231,7 +228,7 @@ h2 {
   margin: 10px;
 }
 
-#icono {
+.icono {
   font-size: 90px;
   margin: 25px 0px 25px;
   color: #ff2873;
@@ -252,6 +249,7 @@ h2 {
 }
 
 .contenedor-cita {
+  width: 40%;
   background-color: rgba(255, 255, 255, 0.767);
   padding: 2%;
 }
@@ -286,7 +284,7 @@ button {
   cursor: pointer;
   margin: 0 20px 30px;
 }
-.project-filters{
+.project-filters {
   flex-wrap: wrap;
 }
 .proyectos,
@@ -306,6 +304,7 @@ button {
   justify-content: center;
   flex-wrap: wrap;
   max-width: 1300px;
+  margin-bottom: 4%;
 }
 
 .caja-pro {
@@ -343,10 +342,16 @@ footer {
   margin: 20px;
 }
 
-.foot,
+.link-footer,
 .con-amor {
   text-decoration: none;
   color: white;
+}
+.con-amor {
+  margin-bottom: 2%;
+}
+.fab {
+  padding: 4px;
 }
 
 .dos {
@@ -369,11 +374,9 @@ footer {
   background-position: 0 100%;
 }
 
-
 /* Ingreso de @media*/
 
 @media (max-width: 600px) {
-
   .fas {
     display: block;
     text-align: right;
@@ -393,10 +396,10 @@ footer {
   .compu {
     width: 100%;
   }
-  h2{
-  font-size: 20px;
-}
-  .personal {
+  h2 {
+    font-size: 20px;
+  }
+  .introduccion {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -427,13 +430,13 @@ footer {
   .caja-pro {
     max-width: 300px;
   }
-  
+
   .ul-foot {
     flex-direction: column;
     align-items: center;
   }
-  
-  .dos{
+
+  .dos {
     font-size: 40px;
   }
 }
@@ -456,16 +459,22 @@ textarea {
   margin: auto;
   display: block;
   background-color: black;
- 
 }
 
 .bg {
   text-align: center;
   width: 0%;
   transition: all 0.6s ease-out;
-  background: #3ebac6 background: -moz-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #3ebac6), color-stop(50%, #8b539e), color-stop(100%, #e53782));
-  background: -webkit-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+  background: #3ebac6;
+  background: -moz-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
+  background: (linear, left top, right to), color-stop(0%, #3ebac6),
+    color-stop(50%, #8b539e), color-stop(100%, #e53782);
+  background: -webkit-linear-gradient(
+    left,
+    #3ebac6 0%,
+    #8b539e 50%,
+    #e53782 100%
+  );
   background: -o-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
   background: -ms-linear-gradient(left, #3ebac6 0%, #8b539e 50%, #e53782 100%);
   background: linear-gradient(to right, #3ebac6 0%, #8b539e 50%, #e53782 100%);
@@ -477,10 +486,9 @@ textarea {
   background-color: white;
   mix-blend-mode: screen;
   padding: 5px;
- 
 }
 
-.contacto-form{
+.contacto-form {
   color: black;
   font-size: 50px;
   letter-spacing: 5px;
@@ -495,9 +503,9 @@ input[type="email"]:focus,
 select:focus,
 textarea:focus,
 input[type="submit"]:focus {
-  outline:none;
- background-color: #ff669c8c;
- border: 0px;
+  outline: none;
+  background-color: #ff669c8c;
+  border: 0px;
 }
 
 input[type="submit"] {
@@ -535,7 +543,7 @@ label {
   background: linear-gradient(90deg, #f073c8, #ff6a95);
   display: flex;
   justify-content: center;
-   flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .submit {
