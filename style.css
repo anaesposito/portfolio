@@ -11,12 +11,43 @@ html {
   scroll-behavior: smooth;
 }
 
+.ocultar {
+  display: none;
+}
+
 body {
   background-color: #fafafa;
   font-family: montserrat;
   font-size: 1em;
 }
+/* Empieza Menu Hamburguesa*/
+.boton-hamburguesa {
+  margin: 0;
+  display: block;
+  text-align: right;
+  margin-right: 2%;
+  color: #e53782;
+}
+.container-expand {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, #f073c8, #ff6a95);
+  padding-top: 40px;
+}
 
+.nav-lista-expand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-expand {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.lista-expand {
+  padding: 20px;
+}
 /*Empieza el Menu Nav */
 
 .menu-nav {
@@ -25,7 +56,7 @@ body {
 }
 
 .fas {
-  color: #ff669b;
+  color: white;
   font-size: 24px;
   display: none;
 }
@@ -64,6 +95,9 @@ li {
 }
 .contacto:hover {
   background-position: 0 100%;
+}
+.contacto-nav {
+  text-decoration: none;
 }
 
 /*Empieza Presentacion*/
@@ -266,6 +300,7 @@ h2 {
   text-align: center;
   padding-top: 2%;
 }
+
 /* Aca empieza Proyectos */
 
 .selected {
@@ -381,6 +416,12 @@ footer {
     display: block;
     text-align: right;
     margin-right: 2%;
+    padding: 25px;
+    color: #e53782;
+  }
+
+  .menu-nav {
+    padding: 0%;
   }
   .nav-header {
     display: none;
