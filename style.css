@@ -29,12 +29,18 @@ body {
   color: #e53782;
 }
 .container-expand {
-  width: 100vw;
+  width: 80vw;
   height: 100vh;
   background: linear-gradient(90deg, #f073c8, #ff6a95);
   padding-top: 40px;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  z-index: 1;
 }
-
+.overlay {
+  background-color: rgba(160, 160, 160, 0.397);
+}
 .nav-lista-expand {
   display: flex;
   flex-direction: column;
