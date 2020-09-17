@@ -11,36 +11,37 @@ html {
   scroll-behavior: smooth;
 }
 
-.ocultar {
-  display: none;
-}
-
 body {
   background-color: #fafafa;
   font-family: montserrat;
   font-size: 1em;
 }
 /* Empieza Menu Hamburguesa*/
+.menu-expand {
+  position: relative;
+}
 .boton-hamburguesa {
   margin: 0;
   display: block;
-  text-align: right;
+  text-align: left;
   margin-right: 2%;
   color: #e53782;
 }
+
 .container-expand {
-  width: 80vw;
-  height: 100vh;
   background: linear-gradient(90deg, #f073c8, #ff6a95);
   padding-top: 40px;
-  position: fixed;
-  top: 0;
-  right: 0px;
-  z-index: 1;
+  position: absolute;
+  transition: 2s;
+  transform: translateX(-500px);
+  z-index: 2;
 }
-.overlay {
-  background-color: rgba(160, 160, 160, 0.397);
+.ocultar {
+  transform: translateX(0);
+  width: 80vw;
+  height: 100vh;
 }
+
 .nav-lista-expand {
   display: flex;
   flex-direction: column;
