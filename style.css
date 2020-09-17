@@ -38,10 +38,16 @@ body {
 }
 .ocultar {
   transform: translateX(0);
-  width: 80vw;
+  width: 70vw;
   height: 100vh;
+  position: fixed;
 }
-
+.fixed {
+  position: fixed;
+  background-color: #fafafa;
+  top: 0;
+  width: 100%;
+}
 .nav-lista-expand {
   display: flex;
   flex-direction: column;
