@@ -3,8 +3,6 @@ const menuBody = document.querySelector("#container-expand");
 const body = document.querySelector("body");
 const cerrarExpand = document.querySelector(".cerrar-expand");
 const links = document.querySelectorAll(".lista-expand");
-const headerExpand = document.querySelector(".menu-expand");
-const presentacion = document.querySelector(".presentacion");
 
 menuHamburguesa.onclick = () => {
   menuBody.classList.toggle("ocultar");

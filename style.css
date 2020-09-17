@@ -30,12 +30,11 @@ body {
 
 .container-expand {
   background: linear-gradient(90deg, #f073c8, #ff6a95);
-  padding-top: 40px;
   position: fixed;
   transition: 2s;
   transform: translateX(-500px);
-  height: 100vh;
   top: 0;
+  height: 100vh;
 }
 .ocultar {
   transform: translateX(0);
@@ -60,6 +59,7 @@ body {
 
 .fa-times-circle {
   color: white;
+  padding-top: 50px;
 }
 /*Empieza el Menu Nav */
 
