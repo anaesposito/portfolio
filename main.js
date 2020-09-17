@@ -1,6 +1,5 @@
 const menuHamburguesa = document.querySelector(".boton-hamburguesa");
 const menuBody = document.querySelector("#container-expand");
-const body = document.querySelector("body");
 const cerrarExpand = document.querySelector(".cerrar-expand");
 const links = document.querySelectorAll(".lista-expand");
 
