@@ -47,7 +47,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0;
 }
 .nav-expand {
   text-decoration: none;
@@ -55,8 +54,7 @@ body {
   font-weight: bold;
 }
 .lista-expand {
-  padding-bottom: 40px;
-  font-size: 18px;
+  padding: 20px;
 }
 
 .fa-times-circle {
