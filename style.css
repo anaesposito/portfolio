@@ -26,6 +26,7 @@ body {
   text-align: left;
   margin-right: 2%;
   color: #e53782;
+  display: none;
 }
 
 .container-expand {
@@ -66,12 +67,6 @@ body {
 .menu-nav {
   padding: 2% 0 1%;
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
-}
-
-.fa-barsas {
-  color: white;
-  font-size: 24px;
-  display: none;
 }
 
 ul {
@@ -425,6 +420,9 @@ footer {
 /* Ingreso de @media*/
 
 @media (max-width: 600px) {
+  .boton-hamburguesa {
+    display: block;
+  }
   .fa-bars {
     display: block;
     text-align: right;
