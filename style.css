@@ -37,12 +37,6 @@ body {
   top: 0;
   height: 100vh;
 }
-.ocultar {
-  transform: translateX(0);
-  width: 70vw;
-  height: 100vh;
-  top: 0;
-}
 
 .nav-lista-expand {
   display: flex;
@@ -311,7 +305,7 @@ h2 {
 
 /* Aca empieza Proyectos */
 
-.selected {
+.selected:focus {
   background-color: #ff669b;
   color: white;
   padding: 0 30px;
@@ -327,7 +321,10 @@ button {
   cursor: pointer;
   margin: 0 20px 30px;
 }
-.project-filters {
+#todos,
+#html,
+#js,
+#react {
   flex-wrap: wrap;
 }
 .proyectos,
@@ -415,6 +412,17 @@ footer {
 }
 .dos:hover {
   background-position: 0 100%;
+}
+
+.ocultar {
+  transform: translateX(0);
+  width: 70vw;
+  height: 100vh;
+  top: 0;
+}
+
+.hidden {
+  display: none;
 }
 
 /* Ingreso de @media*/

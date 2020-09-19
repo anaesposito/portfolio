@@ -127,44 +127,45 @@
     <div class="contenedor-proyectos">
       <h2 id="proyecto">Mis Proyectos</h2>
       <div class="project-filters">
-        <button type="button" class="project-filter selected">Todos</button>
-        <button type="button" class="project-filter">HTML/CSS</button>
-        <button type="button" class="project-filter">JavaScript</button>
-        <button type="button" class="project-filter">React</button>
+        <button id="todos" type="button" data-tecnologia="todos" class="project-filter">Todos</button>
+        <button id="html" type="button" data-tecnologia="html-css" class="project-filter">HTML/CSS</button>
+        <button id="js" type="button" data-tecnologia="javascript" class="project-filter">JavaScript</button>
+        <button id="react" type="button" data-tecnologia="react" class="project-filter">React</button>
       </div>
 
       <div class="principal-proyectos">
-        <div class="caja-pro">
-          <img class="proyecto-img" src="Img/Porfolio.png" alt="">
+
+        <div class="caja-pro" id="portfolio" data-tecnologia="html-css">
+          <img class="proyecto-img" src="Img/Porfolio.png" alt="Portfolio">
           <p>Portfolio</p>
         </div>
 
-        <div class="caja-pro">
-          <img class="proyecto-img" src="Img/Shop.png" alt="">
+        <div class="caja-pro" id="tienda" data-tecnologia="javascript">
+          <img class="proyecto-img" src="Img/Shop.png" alt="Tienda">
           <p>Tienda</p>
         </div>
 
-        <div class="caja-pro">
-          <img class="proyecto-img" src="Img/Game.png" alt="">
-          <p>Juego de la Memoria</p>
+        <div class="caja-pro" id="juego-tres-enlinea" data-tecnologia="javascript">
+          <img class="proyecto-img" src="Img/Game.png" alt="Juego 3 en Linea">
+          <p>Juego tres en línea</p>
         </div>
 
-        <div class="caja-pro">
-          <img class="proyecto-img" src="Img/Money.png" alt="">
+        <div class="caja-pro" id="controlador-gastos" data-tecnologia="javascript">
+          <img class="proyecto-img" src="Img/Money.png" alt="Controlador de Gastos">
           <p>Controlador de Gastos</p>
         </div>
 
-        <div class="caja-pro">
-          <img class="proyecto-img" src="Img/Agenda.png" alt="">
+        <div class="caja-pro" id="administrador-reuniones" data-tecnologia="javascript">
+          <img class="proyecto-img" src="Img/Agenda.png" alt="Administrador de Reuniones">
           <p>Administrador de Reuniones</p>
         </div>
-        <div class="caja-pro">
-          <img class="proyecto-img" src="Img/todo.png" alt="">
+        <div class="caja-pro" id="todo-app" data-tecnologia="react">
+          <img class="proyecto-img" src="Img/todo.png" alt="Todo App">
           <p>Todo App</p>
         </div>
 
-        <div class="caja-pro">
-          <img class="proyecto-img" src="Img/movie.png" alt="">
+        <div class="caja-pro" id="buscador-peliculas" data-tecnologia="react">
+          <img class="proyecto-img" src="Img/movie.png" alt="Buscador de Películas">
           <p>Buscador de Películas</p>
         </div>
       </div>
