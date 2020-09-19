@@ -304,14 +304,6 @@ h2 {
 }
 
 /* Aca empieza Proyectos */
-
-.selected:focus {
-  background-color: #ff669b;
-  color: white;
-  padding: 0 30px;
-  border-radius: 100px;
-}
-
 button {
   border: 0;
   background-color: transparent;
@@ -321,6 +313,36 @@ button {
   cursor: pointer;
   margin: 0 20px 30px;
 }
+.project-filters button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 14px 12px;
+  cursor: pointer;
+}
+
+.project-filter {
+  position: relative;
+  border-radius: 15px;
+  font-size: 70px;
+  font-weight: 800;
+
+  background: linear-gradient(to right, #6dd8d6, #f073c8 50%, #ff2873 50%);
+  -webkit-text-fill-color: white;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+.project-filter:hover {
+  background-position: 0 100%;
+}
+.selected:focus {
+  background: linear-gradient(to right, #6dd8d6, #f073c8 50%);
+}
+
 #todos,
 #html,
 #js,
