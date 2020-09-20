@@ -56,6 +56,7 @@ body {
   color: white;
   padding-top: 50px;
 }
+
 /*Empieza el Menu Nav */
 
 .menu-nav {
@@ -260,7 +261,7 @@ h2 {
 
 .caja {
   background-color: white;
-  border: 1px solid rgb(196, 194, 194);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   border-radius: 5%;
@@ -268,6 +269,10 @@ h2 {
   height: 200px;
   padding: 10px;
   margin: 10px;
+}
+.link-proyectos {
+  text-decoration: none;
+  color: black;
 }
 
 .icono {
@@ -375,7 +380,6 @@ button {
 }
 
 .caja-pro {
-  border: 1px solid rgb(196, 194, 194);
   border-radius: 5%;
   width: 406px;
   padding: 20px;
@@ -397,7 +401,7 @@ footer {
 
 .solapas {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .ul-foot {
   display: flex;
@@ -414,6 +418,18 @@ footer {
 .con-amor {
   text-decoration: none;
   color: white;
+}
+.link-footer {
+  font-weight: bold;
+}
+.end-menu-footer {
+}
+.fa-heart {
+  font-size: 14px;
+  color: #fafafa;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .con-amor {
   margin-bottom: 2%;
