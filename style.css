@@ -505,6 +505,7 @@ footer {
   }
   .contenedor-cita {
     background-color: rgba(255, 255, 255, 0.24);
+    width: 80%;
   }
   .principito {
     font-weight: 400;
@@ -526,6 +527,18 @@ footer {
 
   .dos {
     font-size: 40px;
+  }
+
+  .devicon-github-plain,
+  .fa-whatsapp,
+  .devicon-linkedin-plain {
+    background: #fafafa;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .con-amor {
+    margin-bottom: 40px;
   }
 }
 
