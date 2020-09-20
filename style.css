@@ -56,6 +56,9 @@ body {
   color: white;
   padding-top: 50px;
 }
+.cerrar-expand {
+  margin: 0;
+}
 
 /*Empieza el Menu Nav */
 
@@ -422,8 +425,7 @@ footer {
 .link-footer {
   font-weight: bold;
 }
-.end-menu-footer {
-}
+
 .fa-heart {
   font-size: 14px;
   color: #fafafa;
@@ -498,7 +500,7 @@ footer {
     vertical-align: baseline;
   }
 
-  .compu {
+  .img-introduccion {
     width: 100%;
   }
   h2 {
@@ -676,4 +678,7 @@ label {
     width: 100%;
     margin-top: 0;
   }
+}
+.contacto-form {
+  font-size: 28px;
 }
