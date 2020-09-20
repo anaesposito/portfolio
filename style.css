@@ -81,7 +81,6 @@ ul {
 li {
   margin: 10px;
 }
-
 .contacto {
   background-color: #ff669b;
   border-radius: 100px;
@@ -101,7 +100,6 @@ li {
 .contacto-nav {
   text-decoration: none;
 }
-
 /*Empieza Presentacion*/
 
 section {
@@ -197,16 +195,24 @@ h3 {
   margin-top: 2%;
 }
 .hago {
-  background-color: #ff669b;
-  color: white;
   padding: 15px 40px;
   border-radius: 100px;
-  font-weight: 500;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 200px;
   text-decoration: none;
+  background: linear-gradient(to right, #6dd8d6, #f073c8 50%, #ff2873 50%);
+  -webkit-text-fill-color: white;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  font-weight: bold;
+}
+
+.hago:hover {
+  background-position: 0 100%;
 }
 
 .img-introduccion {
@@ -329,7 +335,6 @@ button {
   border-radius: 15px;
   font-size: 70px;
   font-weight: 800;
-
   background: linear-gradient(to right, #6dd8d6, #f073c8 50%, #ff2873 50%);
   -webkit-text-fill-color: white;
   background-size: 200% 100%;
@@ -573,7 +578,7 @@ textarea {
 
 .contacto-form {
   color: black;
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 5px;
 }
 
