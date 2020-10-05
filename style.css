@@ -664,6 +664,7 @@ label {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  min-width: 500px;
 }
 
 .submit {
