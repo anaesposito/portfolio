@@ -38,37 +38,3 @@ for (let boton of botones) {
     }
   };
 }
-// const accionTodos = () => {
-//   botonTodos.onclick = () => {
-//     botonTodos.classList.add("selected");
-//     botonHtml.classList.remove("selected");
-//     botonJs.classList.remove("selected");
-//     botonReact.classList.remove("selected");
-//   };
-// };
-// const accionHTML = () => {
-//   botonHtml.onclick = () => {
-//     botonHtml.classList.add("selected");
-//     botonTodos.classList.remove("selected");
-//     botonJs.classList.remove("selected");
-//     botonReact.classList.remove("selected");
-//   };
-// };
-
-// const accionJs = () => {
-//   botonJs.onclick = () => {
-//     botonJs.classList.add("selected");
-//     botonHtml.classList.remove("selected");
-//     botonTodos.classList.remove("selected");
-//     botonReact.classList.remove("selected");
-//   };
-// };
-
-// const accionReact = () => {
-//   botonReact.onclick = () => {
-//     botonReact.classList.add("selected");
-//     botonHtml.classList.remove("selected");
-//     botonTodos.classList.remove("selected");
-//     botonJs.classList.remove("selected");
-//   };
-// };

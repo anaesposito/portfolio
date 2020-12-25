@@ -355,6 +355,9 @@ button {
 .selected:focus {
   background: linear-gradient(to right, #6dd8d6, #f073c8 50%);
 }
+.link-portfolio {
+  margin-top: 22%;
+}
 
 #todos,
 #html,
